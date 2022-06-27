@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNEF</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <h1>Juego de ahorcado</h1>
+    <button onclick="nuevoJuego()">Nuevo Juego</button>
+    <p id="pista"></p>
+    <p id="guiones"></p>
+    <ul>
+        <button value="a" onclick="buscaLetra('a')">a</button>
+        <button value="b" onclick="buscaLetra('b')">b</button>
+        <button value="c" onclick="buscaLetra('c')">c</button>
+        <button value="d" onclick="buscaLetra('d')">d</button>
+        <button value="e" onclick="buscaLetra('e')">e</button>
+        <button value="f" onclick="buscaLetra('f')">f</button>
+    </ul>
+    <ul>
+        <button value="g" onclick="buscaLetra('g')">g</button>
+        <button value="h" onclick="buscaLetra('h')">h</button>
+        <button value="i" onclick="buscaLetra('i')">i</button>
+        <button value="j" onclick="buscaLetra('j')">j</button>
+        <button value="k" onclick="buscaLetra('k')">k</button>
+        <button value="l" onclick="buscaLetra('l')">l</button>
+    </ul>
+    <ul>
+        <button value="m" onclick="buscaLetra('m')">m</button>
+        <button value="n" onclick="buscaLetra('n')">n</button>
+        <button value="ñ" onclick="buscaLetra('ñ')">ñ</button>
+        <button value="o" onclick="buscaLetra('o')">o</button>
+        <button value="p" onclick="buscaLetra('p')">p</button>
+        <button value="q" onclick="buscaLetra('q')">q</button>
+    </ul>
+    <ul>
+        <button value="r" onclick="buscaLetra('r')">r</button>
+        <button value="s" onclick="buscaLetra('s')">s</button>
+        <button value="t" onclick="buscaLetra('t')">t</button>
+        <button value="u" onclick="buscaLetra('u')">u</button>
+        <button value="v" onclick="buscaLetra('v')">v</button>
+        <button value="w" onclick="buscaLetra('w')">w</button>
+    </ul>
+    <ul>
+        <button value="x" onclick="buscaLetra('x')">x</button>
+        <button value="y" onclick="buscaLetra('y')">y</button>
+        <button value="z" onclick="buscaLetra('z')">z</button>
+    </ul>
+
+    <div id="ahorcado">
+    </div>
+
+    
+    <!--<p>Introduce una letra</p>
+    <input type="text" maxlength="1" id="letra"/>
+    <button id="calcular">Evaluar letra</button>-->
+
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
